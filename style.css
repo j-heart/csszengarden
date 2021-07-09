@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+body {
+  color: white;
+  margin: 0%;
+}
+
+.intro {
+  background-image: url(https://images5.alphacoders.com/108/thumb-1920-1084184.jpg);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  border: 0px solid;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 7%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+#zen-supporting {
+  text-align: left;
+}
+
+.sidebar {
+  background-image: url(https://i.pinimg.com/originals/5d/93/99/5d9399c1ae72ffa6781802a36212457e.png);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  border: 0px solid;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 7%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ee16ee;
+}
+
+.sidebar a:link {
+  color: white;
+}
+
+.explanation,
+.benefits,
+.participation,
+.requirements {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 3rem;
+  border-radius: 4rem;
+  background: #0091ff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#zen-supporting a {
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: #e63737 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 3px rgba(206, 182, 35, 0);
+  color: #ffffff;
+  font-family: Lobster;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 25px;
+  font-family: Rajdhani;
+}
+
+li {
+  font-family: Rajdhani;
+}
+
+a:link {
+  color: #ff19f4;
+}
+/*# sourceMappingURL=style.css.map */
